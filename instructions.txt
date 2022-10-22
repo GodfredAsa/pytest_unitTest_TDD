@@ -1,0 +1,10 @@
+Pytest is a python unit testing framework
+- ability to create tests, test modules, and test fixtures
+- has commandline parameters to help filter which tests are executed and in what order
+- Similar tests can be grouped in the same module or class
+
+Test Discovery
+- automatically discover tests when executed based on certain naming standards
+- test function names should begin with test Eg def test_example
+- classes with tests in them should name their names start with "Test" and should not have the __init__ method
+- NB: Filenames of test modules should start or end with test Eg test_example.py or example_test.py
