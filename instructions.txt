@@ -8,3 +8,13 @@ Test Discovery
 - test function names should begin with test Eg def test_example
 - classes with tests in them should name their names start with "Test" and should not have the __init__ method
 - NB: Filenames of test modules should start or end with test Eg test_example.py or example_test.py
+
+console command: pytest -v
+
+Setup and Tear down
+-- helps reduce code duplication
+these test methods execute before
+- Test modules
+- test functions
+- test classes
+- test methods in the test classes
