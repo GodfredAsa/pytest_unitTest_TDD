@@ -1,0 +1,3 @@
+- can call read from file
+- readFromFile returns correct string
+- readFromFile throws Exception when file does not exist

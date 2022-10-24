@@ -1,9 +1,0 @@
-
-- can create instance of Checkout class
-- can add item price
-- can add an item
-- can calculate the current total
-- can add multiple items and get the correct total
-- can add discount rules
-- can apply discount rules to total
-- throw exception for item added without a price.
